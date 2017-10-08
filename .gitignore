@@ -1,0 +1,7 @@
+
+temp.py
+*.cfg
+*.html
+*.txt
+.DS_store
+.idea/
