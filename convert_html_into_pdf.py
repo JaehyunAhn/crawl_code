@@ -23,7 +23,7 @@ options = {
     'load-error-handling': 'ignore'
 }
 
-def main():
+def save_to_pdf():
     fl = html_edit.get_file_list('./items/')
     # split into chunks
     _size = 50
@@ -45,6 +45,11 @@ def main():
             print('\t[IOERROR] Error in this index: {}'.format(_idx))
             continue
         time.sleep(3)
+
+
+def main():
+    pass
+
 
 if __name__ == "__main__":
     main()
