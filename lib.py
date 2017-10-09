@@ -57,5 +57,11 @@ def read_config(file_location=None):
         print('[ERROR] No section Error in {}'.format(_file_location))
         return {}
 
+def chunks(list_, size):
+    _return_list = []
+    for i in range(0, len(list_), size):
+        _return_list.append(list_[i:i + size])
+    return _return_list
+
 if __name__ == '__main__':
     read_config()

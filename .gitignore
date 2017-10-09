@@ -5,6 +5,7 @@ temp.py
 *.html
 *.txt
 *.zip
+*.pdf
 
 .DS_store
 .idea/
