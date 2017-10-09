@@ -1,7 +1,10 @@
 
 temp.py
+
 *.cfg
 *.html
 *.txt
+*.zip
+
 .DS_store
 .idea/

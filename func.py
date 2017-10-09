@@ -176,7 +176,7 @@ def test_base():
     # get_cnos(_url1)
     # get_item_list(cno_list=cnos)
     # save_item(url=_article_url, file_name='test.html')
-    save_articles('./item_list.txt')
+    # save_articles('./item_list.txt')
     pass
 
 if __name__ == "__main__":
