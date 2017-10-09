@@ -38,7 +38,7 @@ def save_to_pdf():
             'load-media-error-handling': 'ignore',
             'load-error-handling': 'ignore'
         }
-        print('{} >>> {} ({:.2f}%)'.format(_idx*_size, len(fl), float(_idx*_size)*100/len(fl)))
+        print('[SAVING] {} >>> {} ({:.2f}%)'.format(_idx*_size, len(fl), float(_idx*_size)*100/len(fl)))
         try:
             pdfkit.from_file(chunk, './pdfs/{}_{}.pdf'.format(_prefix, _idx), options=options, toc=toc)
         except IOError:
